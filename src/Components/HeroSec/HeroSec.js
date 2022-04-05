@@ -1,4 +1,5 @@
 import React from 'react';
+import './HeroSec.css'
 
 const HeroSec = () => {
     return (
@@ -14,7 +15,7 @@ const HeroSec = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="hero-img">
-                            <img src="/src/Assets/img/headphones.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/FnSrVb7/headphones.png" alt="" />
                         </div>
                     </div>
                 </div>
